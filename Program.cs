@@ -1,12 +1,12 @@
 ﻿
-int operationType,valueA=5,valueB=9;
+double operationType,valueA=5,valueB=9;
 Console.WriteLine("0,1,2,3 gibi bir değer giriniz");
-operationType = Convert.ToInt32(Console.ReadLine());
+operationType = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("İlk sayıyı giriniz");
-valueA = Convert.ToInt32(Console.ReadLine());
+valueA = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("İkinci sayıyı giriniz");
-valueB = Convert.ToInt32(Console.ReadLine());
+valueB = Convert.ToDouble(Console.ReadLine());
 Operations selectedOperation = (Operations)operationType;
 
 
